@@ -1,0 +1,44 @@
+[
+  {
+    "table": "representationDrafts",
+    "field": "company",
+    "target": "companies",
+    "nullable": false
+  },
+  {
+    "table": "representationDrafts",
+    "field": "person",
+    "target": "people",
+    "nullable": false
+  },
+  {
+    "table": "serviceDrafts",
+    "field": "company",
+    "target": "companies",
+    "nullable": false
+  },
+  {
+    "table": "items",
+    "field": "company",
+    "target": "companies",
+    "nullable": false
+  },
+  {
+    "table": "assets",
+    "field": "company",
+    "target": "companies",
+    "nullable": false
+  },
+  {
+    "table": "assets",
+    "field": "person",
+    "target": "people",
+    "nullable": false
+  },
+  {
+    "table": "deposits",
+    "field": "company",
+    "target": "companies",
+    "nullable": false
+  }
+]

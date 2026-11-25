@@ -1,0 +1,14 @@
+{
+  "name": "来件转寄承运台",
+  "path": "/mail/forwardings",
+  "lookup": "/mail/forwardings/",
+  "id": "forwardingNo",
+  "group": "mail",
+  "key": "Forwarding-Key",
+  "modes": [
+    "accepted",
+    "rejected",
+    "accepted_disconnect",
+    "pending"
+  ]
+}
